@@ -3,9 +3,9 @@ import random
 number = random.randint(-10000, 10000)
 stringnum = repr(number)
 if number < 0:
-        lastdigit = "-" + stringnum[-1]
+    lastdigit = "-" + stringnum[-1]
 elif number >= 0:
-        lastdigit = stringnum[-1]
+    lastdigit = stringnum[-1]
 strings = "Last digit of"
 gre = "and is greater than 5"
 les = "and is less than 6 and not 0"
